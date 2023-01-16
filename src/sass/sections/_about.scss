@@ -12,6 +12,16 @@
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   padding-bottom: 10%;
 
+  .about-wrapper__info-text_cert a {
+    text-decoration: none;
+    color: $white-color;
+  }
+
+  .about-wrapper__info-text_cert a:hover {
+    text-decoration: none;
+    color: $dark-blue-text;
+  }
+
   @include respond(tab-land) {
     height: 100%;
     -webkit-clip-path: none;
